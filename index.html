@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paballo Litabe | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #0d47a1;
+            color: white;
+            padding: 20px 10%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        .nav-links li {
+            margin-left: 25px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .nav-links a:hover {
+            color: #ffd54f;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px 10%;
+            background: linear-gradient(to right, #1565c0, #42a5f5);
+            color: white;
+        }
+
+        .hero-content img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 24px;
+            background: white;
+            color: #1565c0;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .btn:hover {
+            background: #ffd54f;
+        }
+
+        section {
+            padding: 70px 10%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 35px;
+            color: #0d47a1;
+            margin-bottom: 40px;
+        }
+
+        .about,
+        .skills,
+        .projects,
+        .contact {
+            background: white;
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        .about p {
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .project-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 5px solid #1565c0;
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+            color: #0d47a1;
+        }
+
+        .project-card p {
+            line-height: 1.6;
+        }
+
+        .contact p {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #topBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            border: none;
+            background: #1565c0;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        @media (max-width: 768px) {
+
+            nav {
+                flex-direction: column;
+            }
+
+            .nav-links {
+                margin-top: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .nav-links li {
+                margin: 10px;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .hero h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Paballo Litabe</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <img src="profile.jpg" alt="Profile Photo">
+
+        <h1>Paballo Litabe</h1>
+
+        <h2>
+            IT Support Specialist |
+            Systems & Network Security |
+            Python Developer
+        </h2>
+
+        <p>
+            Bachelor of Information Technology graduate specializing in
+            Business Systems, networking, system administration,
+            web development, and software solutions.
+            Passionate about technology, automation,
+            and solving business problems through IT.
+        </p>
+
+        <a href="#projects" class="btn">View Projects</a>
+
+        <a href="cv.pdf" class="btn" download>
+            Download CV
+        </a>
+
+    </div>
+
+</section>
+
+<section id="about">
+
+    <div class="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p>
+          
+    I am a motivated Information Technology graduate with practical
+    experience in IT support, system administration, troubleshooting,
+    cloud technologies, and software development. I hold a Bachelor
+    of Information Technology in Business Systems from IIE Rosebank
+    College and enjoy solving technical problems through technology.
+    My areas of interest include networking, cybersecurity,
+    cloud computing, automation, and database management.
+</p>
+        </p>
+
+    </div>
+
+</section>
+
+<section id="skills">
+
+    <div class="skills">
+
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">Python</div>
+
+            <div class="skill-card">HTML5 & CSS3</div>
+
+            <div class="skill-card">JavaScript</div>
+
+            <div class="skill-card">MySQL</div>
+
+            <div class="skill-card">Git & GitHub</div>
+
+            <div class="skill-card">Networking</div>
+
+            <div class="skill-card">AWS Fundamentals</div>
+
+            <div class="skill-card">Azure Fundamentals</div>
+
+            <div class="skill-card">Windows Support</div>
+
+            <div class="skill-card">System Administration</div>
+
+        </div>
+
+    </div>
+
+</section><div class="projects-grid">
+
+    <div class="project-card">
+
+        <h3>IT Support & System Administration</h3>
+
+        <p>
+            Configured and maintained computer systems and networks.
+            Diagnosed and resolved hardware and software issues,
+            and assisted users with technical support and system setup.
+        </p>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>Cloud & Security Projects</h3>
+
+        <p>
+            Deployed and managed virtual machines in AWS and Azure
+            environments, implemented security controls, and applied
+            networking and cybersecurity principles in practical scenarios.
+        </p>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>Automation Project</h3>
+
+        <p>
+            Developed Python scripts to automate routine
+            data-processing tasks, improving efficiency
+            and reducing manual workload.
+        </p>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>Digital Connect Internet Café System</h3>
+
+        <p>
+            Designed and developed an internet café management
+            website with customer management, booking features,
+            and administrative tools.
+        </p>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>CollaborateX Platform</h3>
+
+        <p>
+            Developed an academic collaboration platform
+            featuring forums, resources, communication tools,
+            and project management functionality.
+        </p>
+
+    </div>
+
+    <div class="project-card">
+
+        <h3>Python Ticket Management System</h3>
+
+        <p>
+            Built a ticket management application using Python
+            and CSV files for creating, updating, searching,
+            and exporting support tickets.
+        </p>
+
+    </div>
+
+</div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <div class="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+    <p>Email: phabweylitabe98@gmail.com</p>
+
+<p>LinkedIn: linkedin.com/in/paballo-litabe</p>
+
+<p>GitHub: github.com/Phabwey</p>
+
+<p>Phone: 081 599 1792</p>
+
+<p>Location: South Africa</p>
+      
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 Paballo Litabe. All rights reserved.
+    </p>
+
+</footer>
+
+<button id="topBtn">↑</button>
+
+<script>
+
+    const topBtn = document.getElementById("topBtn");
+
+    window.onscroll = function () {
+
+        if (
+            document.body.scrollTop > 300 ||
+            document.documentElement.scrollTop > 300
+        ) {
+
+            topBtn.style.display = "block";
+
+        } else {
+
+            topBtn.style.display = "none";
+
+        }
+    };
+
+    topBtn.addEventListener("click", function () {
+
+        window.scrollTo({
+
+            top: 0,
+
+            behavior: "smooth"
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>
