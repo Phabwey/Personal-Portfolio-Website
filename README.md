@@ -51,31 +51,6 @@ https://github.com/Phabwey/Python-Ticket-Management-System.git
 
 ---
 
-### IT Support & System Administration
-
-Configured and maintained computer systems and networks, diagnosed hardware and software issues, and provided technical support.
-
-Repository:
-Add your repository link here.
-
----
-
-### Cloud & Security Projects
-
-Deployed and managed virtual machines in AWS and Azure environments while implementing networking and cybersecurity principles.
-
-Repository:
-Add your repository link here.
-
----
-
-### Automation Project
-
-Developed Python scripts to automate routine data-processing tasks and improve efficiency.
-
-Repository:
-Add your repository link here.
-
 ## Folder Structure
 
 ```
