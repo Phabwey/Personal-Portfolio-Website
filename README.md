@@ -31,13 +31,50 @@ A web-based internet café management system with customer management, bookings,
 Repository:
 https://github.com/Phabwey/Digital_Connect_Portfolio_Website.html.git
 
+---
+
 ### CollaborateX Platform
 
 An academic collaboration platform featuring forums, communication tools, resource sharing, and project management.
 
+Repository:
+https://github.com/Phabwey/CollaborateX.git
+
+---
+
 ### Python Ticket Management System
 
 A ticket management application built with Python and CSV files for creating, updating, searching, and exporting support tickets.
+
+Repository:
+https://github.com/Phabwey/Python-Ticket-Management-System.git
+
+---
+
+### IT Support & System Administration
+
+Configured and maintained computer systems and networks, diagnosed hardware and software issues, and provided technical support.
+
+Repository:
+Add your repository link here.
+
+---
+
+### Cloud & Security Projects
+
+Deployed and managed virtual machines in AWS and Azure environments while implementing networking and cybersecurity principles.
+
+Repository:
+Add your repository link here.
+
+---
+
+### Automation Project
+
+Developed Python scripts to automate routine data-processing tasks and improve efficiency.
+
+Repository:
+Add your repository link here.
 
 ## Folder Structure
 
