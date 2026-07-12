@@ -101,4 +101,8 @@ Paballo Litabe
 
 Bachelor of Information Technology in Business Systems
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
 © 2026 All rights reserved.
