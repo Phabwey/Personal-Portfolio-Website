@@ -22,6 +22,17 @@ This is my personal portfolio website showcasing my skills, education, and proje
 - CSS3
 - JavaScript
 
+## Skills
+
+- IT Support and Troubleshooting
+- Networking and System Administration
+- Cybersecurity Fundamentals
+- Web Development (HTML, CSS, JavaScript)
+- Python Programming and Automation
+- Database Management (MySQL)
+- Cloud Technologies (AWS and Azure)
+- Version Control with Git and GitHub
+
 ## Projects Included
 
 ### Digital Connect Internet Café System
