@@ -1,304 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paballo Litabe | Portfolio</title>
 
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-    }
+<title>IT Support Specialist|Junior System Administrator|Microsoft 365 Administrator
 
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f8f5f0;
-        color: #000;
-        line-height: 1.6;
-    }
+<style>
 
-    header {
-        background-color: #ffffff;
-        padding: 12px 8%;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .logo {
-        font-size: 28px;
-        font-weight: bold;
-        color: #000;
-    }
-
-    nav ul {
-    display: flex;
-    list-style: none;
-    gap: 12px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
 }
-    nav ul li a {
-        text-decoration: none;
-        color: #000;
-        font-weight: 600;
-    }
 
-    nav ul li a:hover {
-        color: #8b5a2b;
-    }
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#f7f4ef;
+color:#222;
+line-height:1.7;
+}
 
-    .hero {
-        text-align: center;
-        background-color: #ffffff;
-        padding-bottom: 80px;
-    }
+header{
+position:sticky;
+top:0;
+background:#fff;
+padding:15px 8%;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+z-index:1000;
+}
 
-    .hero img {
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-top: 40px;
-        border: 5px solid #8b5a2b;
-    }
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
 
-    .hero-content {
-        max-width: 850px;
-        margin: auto;
-        padding: 40px 20px;
-    }
-        
-   .hero h1 {
-        font-size: 32px;
-        color: #000;
-        margin-bottom: 10px;
-   }
-    .hero h2 {
-        color: #8b5a2b;
-        font-size: 28px;
-        margin-bottom: 30px;
-    }
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#8B5A2B;
+}
 
-    .hero p {
-        font-size: 20px;
-        margin-bottom: 35px;
-    }
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
 
-    .btn {
-        display: inline-block;
-        text-decoration: none;
-        padding: 14px 28px;
-        margin: 10px;
-        border-radius: 8px;
-        font-weight: bold;
-        transition: 0.3s;
-        background-color: #8b5a2b;
-        color: white;
-    }
+nav ul li a{
+text-decoration:none;
+color:#222;
+font-weight:bold;
+transition:.3s;
+}
 
-    .btn:hover {
-        transform: translateY(-3px);
-    }
+nav ul li a:hover{
+color:#8B5A2B;
+}
 
-    section {
-        padding: 70px 8%;
-    }
+.hero{
+text-align:center;
+padding:70px 20px;
+background:#fff;
+}
 
-    section h2 {
-        text-align: center;
-        color: #8b5a2b;
-        margin-bottom: 40px;
-        font-size: 36px;
-    }
+.hero img{
+width:220px;
+height:220px;
+object-fit:cover;
+border-radius:50%;
+border:6px solid #8B5A2B;
+margin-bottom:25px;
+}
 
-    .skills-grid,
-    .projects-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 20px;
-    }
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
 
-    .skill-card,
-    .project-card {
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    }
+.hero h2{
+color:#8B5A2B;
+font-size:28px;
+margin-bottom:25px;
+}
 
-    .project-card {
-        border-left: 5px solid #8b5a2b;
-    }
+.hero p{
+max-width:900px;
+margin:auto;
+font-size:19px;
+margin-bottom:35px;
+}
 
-    .contact p {
-        margin: 15px 0;
-        font-size: 18px;
-        text-align: center;
-    }
+.btn{
+display:inline-block;
+padding:15px 30px;
+margin:8px;
+background:#8B5A2B;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
 
-    footer {
-        background-color: #8b5a2b;
-        color: white;
-        text-align: center;
-        padding: 25px;
-    }
+.btn:hover{
+background:#6d4520;
+transform:translateY(-3px);
+}
 
-    #topBtn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        padding: 10px 15px;
-        border: none;
-        border-radius: 50%;
-        background: #8b5a2b;
-        color: white;
-        cursor: pointer;
-        display: none;
-    }
+section{
+padding:80px 8%;
+}
 
-    @media (max-width: 768px) {
+.section-title{
+text-align:center;
+font-size:36px;
+color:#8B5A2B;
+margin-bottom:45px;
+}
 
-        nav {
-            flex-direction: column;
-        }
+.about{
+max-width:1000px;
+margin:auto;
+text-align:center;
+font-size:19px;
+}
 
-        nav ul {
-    flex-direction: column;
-    text-align: center;
-    gap: 8px;
-    margin-top: 10px;
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
 
-        .hero h1 {
-            font-size: 40px;
-        }
+.skill-card{
+background:white;
+padding:22px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+font-weight:bold;
+transition:.3s;
+}
 
-        .hero h2 {
-            font-size: 22px;
-        }
+.skill-card:hover{
+transform:translateY(-5px);
+}
 
-        .hero p {
-            font-size: 18px;
-        }
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
 
-        .hero img {
-            width: 180px;
-            height: 180px;
-        }
-    }
+.project-card{
+background:white;
+padding:25px;
+border-left:6px solid #8B5A2B;
+border-radius:10px;
+box-shadow:0 3px 12px rgba(0,0,0,.1);
+}
 
-    </style>
+.project-card h3{
+margin-bottom:15px;
+color:#8B5A2B;
+}
 
-</head>
+.project-card p{
+margin-bottom:20px;
+}
+
+.contact{
+text-align:center;
+font-size:19px;
+}
+
+.contact p{
+margin:18px 0;
+}
+
+.contact a{
+color:#8B5A2B;
+text-decoration:none;
+}
+
+footer{
+background:#8B5A2B;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
+
+#topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+display:none;
+background:#8B5A2B;
+color:white;
+border:none;
+padding:14px 18px;
+border-radius:50%;
+cursor:pointer;
+font-size:18px;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+flex-direction:column;
+margin-top:15px;
+gap:12px;
+text-align:center;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.hero h2{
+font-size:22px;
+}
+
+.hero img{
+width:180px;
+height:180px;
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
-    <nav>
-        <div class="logo">Paballo Litabe</div>
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<nav>
+
+<div class="logo">
+Paballo Litabe
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
 </header>
 
 <section class="hero" id="home">
 
-    <div class="hero-content">
+<img src="Profile.jpg" alt="Paballo Litabe">
 
-        <img <img src="Profile.jpg" alt="Paballo Litabe">
+<h1>Paballo Litabe</h1>
 
-        <h1>Paballo Litabe</h1>
+<h2>
+IT Support Specialist |
+Junior System Administrator |
+Microsoft 365 Administrator
+</h2>
 
-         <h2>
-                 IT Graduate |
-                 IT Support Specialist |
-                 Systems & Network Security
-        </h2>
+<p>
 
-        <p>
-            Bachelor of Information Technology graduate specializing in
-            Business Systems, networking, system administration,
-            web development, and software solutions.
-            Passionate about technology, automation,
-            and solving business problems through IT.
-        </p>
+Results-driven Information Technology graduate with hands-on experience in IT support, Active Directory, Microsoft 365 administration, Windows Server, network troubleshooting, and cloud technologies. Skilled in Python automation, Microsoft Entra ID, Azure, AWS, and technical documentation. Passionate about delivering reliable IT support while continuously expanding expertise in systems and cloud administration.
 
-        <a href="#projects" class="btn">View Projects</a>
+</p>
 
-        <a <button onclick="window.location.href='Paballo_Moipone_Litabe_CV.pdf'">
-    Download CV
-</button>
-        </a>
+<a href="#projects" class="btn">View Projects</a>
 
-    </div>
+<a href="Paballo_Moipone_Litabe_CV.pdf" class="btn" download>
+Download CV
+</a>
+
+<a href="https://github.com/Phabwey" class="btn" target="_blank">
+GitHub
+</a>
+
+<a href="https://linkedin.com/in/paballo-litabe" class="btn" target="_blank">
+LinkedIn
+</a>
 
 </section>
-
 <section id="about">
 
-    <div class="about">
+<div class="about">
 
-        <h2 class="section-title">About Me</h2>
+<h2 class="section-title">About Me</h2>
 
-        <p>
-          
-    I am a motivated Information Technology graduate with practical
-    experience in IT support, system administration, troubleshooting,
-    cloud technologies, and software development. I hold a Bachelor
-    of Information Technology in Business Systems from IIE Rosebank
-    College and enjoy solving technical problems through technology.
-    My areas of interest include networking, cybersecurity,
-    cloud computing, automation, and database management.
-        </p>
+<p>
 
-    </div>
+I am a motivated Information Technology graduate with a Bachelor of Information Technology in Business Systems (NQF 7) from IIE Rosebank College, achieving a final average of 71.3%.
+
+I have practical experience in IT support, Active Directory, Microsoft 365 administration, Windows Server, Microsoft Entra ID, networking, cloud technologies, and Python automation. Through hands-on lab projects and software development, I have strengthened my troubleshooting, system administration, and technical documentation skills.
+
+I enjoy solving technical problems, learning new technologies, and building practical solutions that improve business operations. My goal is to begin my career as an IT Support Specialist, Helpdesk Technician, Junior System Administrator, or Microsoft 365 Administrator while continuing to expand my knowledge in cloud computing and enterprise infrastructure.
+
+</p>
+
+</div>
 
 </section>
 
 <section id="skills">
 
-    <div class="skills">
+<h2 class="section-title">Technical Skills</h2>
 
-        <h2 class="section-title">Technical Skills</h2>
+<div class="skills-grid">
 
-        <div class="skills-grid">
+<div class="skill-card">
+<h3>Operating Systems</h3>
+<p>
+Windows 10<br>
+Windows 11<br>
+Windows Server
+</p>
+</div>
 
-            <div class="skill-card">Python</div>
+<div class="skill-card">
+<h3>System Administration</h3>
+<p>
+Active Directory<br>
+Group Policy<br>
+Microsoft Entra ID<br>
+Microsoft 365
+</p>
+</div>
 
-            <div class="skill-card">HTML5 & CSS3</div>
+<div class="skill-card">
+<h3>Networking</h3>
+<p>
+TCP/IP<br>
+DNS<br>
+DHCP<br>
+Network Troubleshooting
+</p>
+</div>
 
-            <div class="skill-card">JavaScript</div>
+<div class="skill-card">
+<h3>Cloud</h3>
+<p>
+Microsoft Azure<br>
+AWS Fundamentals<br>
+Microsoft 365
+</p>
+</div>
 
-            <div class="skill-card">MySQL</div>
+<div class="skill-card">
+<h3>Programming</h3>
+<p>
+Python<br>
+HTML5<br>
+CSS3<br>
+JavaScript
+</p>
+</div>
 
-            <div class="skill-card">Git & GitHub</div>
+<div class="skill-card">
+<h3>Databases</h3>
+<p>
+MySQL<br>
+CSV File Handling
+</p>
+</div>
 
-            <div class="skill-card">Networking</div>
+<div class="skill-card">
+<h3>Version Control</h3>
+<p>
+Git<br>
+GitHub
+</p>
+</div>
 
-            <div class="skill-card">AWS Fundamentals</div>
-
-            <div class="skill-card">Azure Fundamentals</div>
-
-            <div class="skill-card">Windows Support</div>
-
-            <div class="skill-card">System Administration</div>
-
+<div class="skill-card">
+<h3>Professional Skills</h3>
+<p>
+Technical Support<br>
+Problem Solving<br>
+Documentation<br>
+Customer Service
+</p>
 </div>
 
 </div>
@@ -306,146 +407,220 @@
 </section>
 
 <section id="projects">
-    <div class="projects">
 
-        <h2 class="section-title">Projects</h2>
+<h2 class="section-title">Featured Projects</h2>
 
-        <div class="projects-grid">
+<div class="projects-grid">
 
-            <div class="project-card">
+<div class="project-card">
 
-                <h3>Digital Connect Internet Café System</h3>
+<h3>Active Directory Administration Lab</h3>
 
-                <p>
-                    Designed and developed an internet café management
-                    website with customer management, booking features,
-                    and administrative tools.
-                </p>
-                
-                <a href="https://github.com/Phabwey/Digital_Connect_Portfolio_Website.html" class="btn btn-primary" target="_blank">
-                 View on GitHub
-                </a>
-                
-            </div>
+<p>
 
-            <div class="project-card">
+A hands-on Windows Server lab demonstrating enterprise Active Directory administration, user and group management, Group Policy Objects (GPOs), organizational units, password policies, and Active Directory security.
 
-                <h3>CollaborateX Platform</h3>
+</p>
 
-                <p>
-                    Developed an academic collaboration platform
-                    featuring forums, resources, communication tools
-                    and project management functionality.
-                </p>
+<a href="https://github.com/Phabwey/Active-Directory-Administration-Lab" class="btn" target="_blank">
 
-                <a href="https://github.com/Phabwey/CollaborateX" class="btn btn-primary" target="_blank">
-                View on GitHub
-                </a>
+View Repository
 
-            </div>
+</a>
 
-            <div class="project-card">
+</div>
 
-                <h3>Python Ticket Management System</h3>
+<div class="project-card">
 
-                <p>
-                    Built a ticket management application using Python
-                    and CSV files for creating, updating, searching
-                    and exporting support tickets.
-                </p>
-                
-                <a href="https://github.com/Phabwey/Python-Ticket-Management-System"
-                class="btn btn-primary"
-                target="_blank">
-                View on GitHub
-                </a>
+<h3>Microsoft 365 Administration Lab</h3>
 
-            </div>
+<p>
 
-        </div>
+A Microsoft 365 administration project demonstrating Microsoft Entra ID, Exchange Online, Microsoft Teams, Multi-Factor Authentication (MFA), user administration, license management, and Microsoft 365 security.
 
-    </div>
+</p>
 
-</section>
+<a href="https://github.com/Phabwey/Microsoft-365-Administration-Lab" class="btn" target="_blank">
 
-    <section id="contact">
+View Repository
 
-    <div class="contact">
+</a>
 
-        <h2 class="section-title">Contact Me</h2>
+</div>
 
-        <p>
-            Email:
-            <a href="mailto:phabweylitabe98@gmail.com">
-                phabweylitabe98@gmail.com
-            </a>
-        </p>
+<div class="project-card">
 
-        <p>
-            LinkedIn:
-            <a href="https://linkedin.com/in/paballo-litabe" target="_blank">
-                linkedin.com/in/paballo-litabe
-            </a>
-        </p>
+<h3>Student Performance Analytics Dashboard</h3>
 
-        <p>
-            GitHub:
-            <a href="https://github.com/Phabwey" target="_blank">
-                github.com/Phabwey
-            </a>
-        </p>
+<p>
 
-        <p>Phone: 081 599 1792</p>
+A Python desktop application for managing student records, generating reports, visualizing performance data, and analyzing student results using CSV files and data analytics.
 
-        <p>Location: South Africa</p>
+</p>
 
-    </div>
+<a href="https://github.com/Phabwey/Student-Performance-Analytics-Dashboard" class="btn" target="_blank">
+
+View Repository
+
+</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Python Helpdesk Ticket System</h3>
+
+<p>
+
+A Python-based ticket management system designed to create, update, search, and manage IT support tickets while demonstrating practical helpdesk workflows.
+
+</p>
+
+<a href="https://github.com/Phabwey/Python-Helpdesk-Ticket-System" class="btn" target="_blank">
+
+View Repository
+
+</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Digital Connect Internet Café Management System</h3>
+
+<p>
+
+A responsive web application designed for internet café operations, including customer management, booking functionality, and administrative features.
+
+</p>
+
+<a href="https://github.com/Phabwey/Digital_Connect_Portfolio_Website.html" class="btn" target="_blank">
+
+View Repository
+
+</a>
+
+</div>
+
+</div>
+
+</section
+<section id="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<div class="contact">
+
+<p>
+📧 <strong>Email:</strong><br>
+<a href="mailto:phabweylitabe98@gmail.com">
+phabweylitabe98@gmail.com
+</a>
+</p>
+
+<p>
+💼 <strong>LinkedIn:</strong><br>
+<a href="https://linkedin.com/in/paballo-litabe" target="_blank">
+linkedin.com/in/paballo-litabe
+</a>
+</p>
+
+<p>
+💻 <strong>GitHub:</strong><br>
+<a href="https://github.com/Phabwey" target="_blank">
+github.com/Phabwey
+</a>
+</p>
+
+<p>
+🌐 <strong>Portfolio Website:</strong><br>
+<a href="https://phabwey.github.io/Personal-Portfolio-Website/" target="_blank">
+phabwey.github.io/Personal-Portfolio-Website
+</a>
+</p>
+
+<p>
+📍 <strong>Location:</strong><br>
+Free State, South Africa
+</p>
+
+<p>
+📱 <strong>Phone:</strong><br>
+081 599 1792
+</p>
+
+</div>
 
 </section>
 
 <footer>
 
-    <p>
-        © 2026 Paballo Litabe. All rights reserved.
-    </p>
+<h3>Paballo Moipone Litabe</h3>
+
+<p>
+
+Bachelor of Information Technology in Business Systems (NQF 7)
+
+</p>
+
+<p>
+
+IT Support Specialist • Junior System Administrator • Microsoft 365 Administrator
+
+</p>
+
+<br>
+
+<p>
+
+© 2026 Paballo Moipone Litabe. All Rights Reserved.
+
+</p>
 
 </footer>
 
-<button id="topBtn">↑</button>
+<button id="topBtn" title="Back to Top">
+
+↑
+
+</button>
 
 <script>
 
-    const topBtn = document.getElementById("topBtn");
+const topBtn = document.getElementById("topBtn");
 
-    window.onscroll = function () {
+window.addEventListener("scroll", function () {
 
-        if (
-            document.body.scrollTop > 300 ||
-            document.documentElement.scrollTop > 300
-        ) {
+    if (window.pageYOffset > 300) {
 
-            topBtn.style.display = "block";
+        topBtn.style.display = "block";
 
-        } else {
+    } else {
 
-            topBtn.style.display = "none";
+        topBtn.style.display = "none";
 
-        }
-    };
+    }
 
-    topBtn.addEventListener("click", function () {
+});
 
-        window.scrollTo({
+topBtn.addEventListener("click", function () {
 
-            top: 0,
+    window.scrollTo({
 
-            behavior: "smooth"
+        top: 0,
 
-        });
+        behavior: "smooth"
 
     });
+
+});
 
 </script>
 
 </body>
+
 </html>
+    
+    
+    
+    
