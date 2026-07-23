@@ -182,7 +182,6 @@ Repository
 https://github.com/Phabwey/CollaborateX
 
 ---
-
 # Folder Structure
 
 ```text
@@ -194,10 +193,9 @@ Portfolio-Website/
 ├── assets/
 │   ├── images/
 │   └── cv/
-│       └── Paballo-Litabe-CV.pdf
+│       └── Paballo_Moipone_Litabe_CV.pdf
 └── README.md
 ```
-
 ---
 
 # Installation
