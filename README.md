@@ -1,108 +1,249 @@
 # Paballo Litabe Portfolio Website
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+# Paballo Litabe Portfolio Website
+
 ## Overview
 
-This is my personal portfolio website showcasing my skills, education, and projects in Information Technology. The portfolio highlights my experience in IT support, networking, system administration, cybersecurity, web development, and software development.
+This portfolio website showcases my education, technical skills, certifications, and practical IT projects. It serves as my professional portfolio for IT Support, Helpdesk, Junior System Administrator, and Microsoft 365 Administrator opportunities.
 
-## Features
+The portfolio demonstrates hands-on experience in Active Directory, Microsoft 365 Administration, Windows Server, networking, Python development, cloud technologies, and web development.
 
-- Responsive design for desktop and mobile devices
-- Professional home page
+---
+
+# Features
+
+- Responsive design
+- Professional landing page
 - About Me section
-- Technical skills section
-- Projects showcase
+- Technical Skills
+- Certifications
+- Technical Projects
 - Downloadable CV
 - Contact information
-- Smooth scrolling navigation
-- Back-to-top button
+- GitHub project links
+- LinkedIn profile
+- Mobile-friendly layout
 
-## Technologies Used
+---
+
+# Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-
-## Skills
-
-- IT Support and Troubleshooting
-- Networking and System Administration
-- Cybersecurity Fundamentals
-- Web Development (HTML, CSS, JavaScript)
-- Python Programming and Automation
-- Database Management (MySQL)
-- Cloud Technologies (AWS and Azure)
-- Version Control with Git and GitHub
-
-## Projects Included
-
-### Digital Connect Internet Café System
-
-A web-based internet café management system with customer management, bookings, and administrative tools.
-
-Repository:
-https://github.com/Phabwey/Digital_Connect_Portfolio_Website.html.git
+- Git
+- GitHub
 
 ---
 
-### CollaborateX Platform
+# Technical Skills
 
-An academic collaboration platform featuring forums, communication tools, resource sharing, and project management.
+## System Administration
 
-Repository:
-https://github.com/Phabwey/CollaborateX.git
+- Active Directory
+- Windows Server
+- Microsoft 365
+- Microsoft Entra ID
+- Exchange Online
+- Group Policy
+- Microsoft Teams Administration
+
+## Networking
+
+- TCP/IP
+- Network Troubleshooting
+- Firewall Configuration
+- DNS
+- DHCP
+
+## Programming
+
+- Python
+- HTML5
+- CSS3
+- JavaScript
+
+## Cloud Technologies
+
+- Microsoft Azure
+- AWS Fundamentals
+- Microsoft 365
+
+## Databases
+
+- MySQL
+- CSV File Management
 
 ---
 
-### Python Ticket Management System
+# Featured Projects
 
-A ticket management application built with Python and CSV files for creating, updating, searching, and exporting support tickets.
+## Active Directory Administration Lab
 
-Repository:
-https://github.com/Phabwey/Python-Ticket-Management-System.git
+Simulated enterprise Active Directory environment demonstrating:
+
+- User and Group Management
+- Organizational Units (OUs)
+- Group Policy Objects (GPOs)
+- Password Policies
+- Windows Server Administration
+- Active Directory Security
+
+Repository
+
+https://github.com/Phabwey/Active-Directory-Administration-Lab
 
 ---
 
-## Folder Structure
+## Microsoft 365 Administration Lab
 
-```
+Hands-on Microsoft 365 administration project including:
 
-portfolio/
+- Microsoft Entra ID
+- User Management
+- Exchange Online
+- Microsoft Teams
+- Multi-Factor Authentication (MFA)
+- Microsoft 365 Security
+
+Repository
+
+https://github.com/Phabwey/Microsoft-365-Administration-Lab
+
+---
+
+## Student Performance Analytics Dashboard
+
+Python desktop application featuring:
+
+- Student Record Management
+- Data Analytics
+- CSV Processing
+- Reports
+- Charts
+- Performance Analysis
+
+Repository
+
+https://github.com/Phabwey/Student-Performance-Analytics-Dashboard
+
+---
+
+## Python Helpdesk Ticket System
+
+Python application developed for IT support operations featuring:
+
+- Ticket Creation
+- Ticket Tracking
+- Status Updates
+- CSV Storage
+- Search Functionality
+
+Repository
+
+https://github.com/Phabwey/Python-Helpdesk-Ticket-System
+
+---
+
+## Digital Connect Internet Café System
+
+Web application developed for internet café management featuring:
+
+- Customer Registration
+- Booking System
+- Payment Tracking
+- MySQL Database
+- Administrative Dashboard
+
+Repository
+
+https://github.com/Phabwey/Digital_Connect_Portfolio_Website.html
+
+---
+
+## CollaborateX Platform
+
+Academic collaboration platform featuring:
+
+- Student Collaboration
+- Resource Sharing
+- Discussion Forums
+- Project Management
+- Team Communication
+
+Repository
+
+https://github.com/Phabwey/CollaborateX
+
+---
+
+# Folder Structure
+
+```text
+Portfolio-Website/
 
 ├── index.html
-├── profile.jpg
-├── cv.pdf
+├── style.css
+├── script.js
+├── assets/
+│   ├── images/
+│   └── cv/
+│       └── Paballo-Litabe-CV.pdf
 └── README.md
-
 ```
 
-## Installation
+---
 
-1. Download or clone the repository:
+# Installation
 
+Clone the repository
+
+```bash
+git clone https://github.com/Phabwey/Personal-Portfolio-Website.git
 ```
 
-git clone https://github.com/Phabwey/Digital_Connect_Portfolio_Website.html.git
+Open **index.html** in your preferred web browser.
 
-```
+---
 
-2. Open `index.html` in your browser.
+# Contact
 
-## Contact
+Email
 
-Email: phabweylitabe98@gmail.com
+phabweylitabe98@gmail.com
 
-LinkedIn: https://linkedin.com/in/paballo-litabe
+LinkedIn
 
-GitHub: https://github.com/Phabwey
+https://linkedin.com/in/paballo-litabe
 
-## Author
+GitHub
 
-Paballo Litabe
+https://github.com/Phabwey
 
-Bachelor of Information Technology in Business Systems
+Portfolio Website
 
-## License
+https://phabwey.github.io/Personal-Portfolio-Website/
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+---
 
-© 2026 All rights reserved.
+# Author
+
+**Paballo Moipone Litabe**
+
+Bachelor of Information Technology in Business Systems (NQF 7)
+
+Final Average: **71.3%**
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+© 2026 Paballo Moipone Litabe. All rights reserved.
